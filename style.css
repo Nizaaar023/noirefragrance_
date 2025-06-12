@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-style: normal;
+}
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    background: #201e1e;
+    height: 100%;
+    background-image: url(backgrund3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+.profile>img {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-position: center;
+}
+.noire2{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.noire3{
+    padding: none;
+    font-size: 12px;
+    text-align: center
+}
+.link{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.link>a{
+    margin: 13px;
+    padding: 13px;
+    text-decoration: none;
+    background: none;
+    color: #201e1e;
+    text-align: center;
+    font-size: 10px;
+    border: 1px solid #201e1e;
+    border-radius: 50px;
+    
+}
+.link>a:hover{
+background-color: aliceblue;
+}
+.bi{
+    margin-right: 10px;
+    display: inline-flex;
+    align-items: baseline;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent footer over background image */
+    position: relative;
+    bottom: 0;
+    max-width: 100%;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    color: #ccc;
+}
